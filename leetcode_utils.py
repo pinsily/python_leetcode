@@ -17,7 +17,7 @@ def run_function(solution, function, *args):
     :param
         solution: [第几种方法]
         function: [方法名]
-        *args: [方面的顺序参数]
+        *args: [方法的顺序参数]
     """
     start = time.clock()
     rt = function(*args)
