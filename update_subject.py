@@ -12,5 +12,5 @@ with open("README.md", 'a') as f:
         title = item[2]
         difficulty = item[3]
 
-        md = "- [] [{0}. {1}]({2})\n".format(order, title, link)
+        md = "- [ ] [{0}. {1}]({2})\n".format(order, title, link)
         f.write(md)
