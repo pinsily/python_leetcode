@@ -12,5 +12,5 @@ with open("README.md", 'a') as f:
         title = item[2]
         difficulty = item[3]
 
-        md = "| :white_check_mark: | {0} | [{1}]({2}) | {3} |\n".format(order, title, link, difficulty)
+        md = "| :full_moon: | {0} | [{1}]({2}) | {3} |\n".format(order, title, link, difficulty)
         f.write(md)
